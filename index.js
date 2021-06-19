@@ -53,7 +53,7 @@ if (hexo.config.images.enable) {
         hexo.extend.filter.register('after_generate', require('./lib/cleanupSourceImagesFiler')(hexo));
     }
 
-    // Inlcude processed images into final output
+    // Include processed images into final output
     hexo.extend.generator.register('images', require('./lib/imagesGenerator')(hexo));
 
     // Helper to resolve image by name from the current post context
