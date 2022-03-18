@@ -30,7 +30,7 @@
     },
     "homepage": "https://github.com/sergeyzwezdin/hexo-images#readme",
     "peerDependencies": {
-        "hexo": "^4.2.0 || ^5.2.0",
+        "hexo": "^4.2.0 || ^5.2.0 || ^6.0.0",
         "hexo-util": "^2.4.0",
         "chalk": "^4.0.0",
         "pretty-hrtime": "^1.0.3"
